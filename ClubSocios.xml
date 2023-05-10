@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<club>
+    <socio idSocio="1">
+        <nombreSocio>Texto ejemplo</nombreSocio>
+        <direccion>Texto ejemplo</direccion>
+        <fechaAlta>Texto ejemplo</fechaAlta>
+    </socio>
+    <socio idSocio="2">
+        <nombreSocio>Texto ejemplo</nombreSocio>
+        <direccion>Texto ejemplo</direccion>
+        <fechaAlta>Texto ejemplo</fechaAlta>
+    </socio>
+</club>
