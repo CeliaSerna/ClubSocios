@@ -48,21 +48,21 @@ public class Controller {
 		Club miClub = new Club();
 		/** socio 1 **/
 		Socio socio1 = new Socio();
-		socio1.setIdSocio(1);
+		//socio1.setIdSocio(1);
 		socio1.setNombreSocio("Mari Carmen");
 		socio1.setDireccion("Calle Maria del Prado, 36");
 		socio1.setFechaAlta("13/02/2023");
 		miClub.getSocio().add(socio1);
 	    /** socio 2**/
 		Socio socio2 = new Socio();
-		socio2.setIdSocio(2);
+		//socio2.setIdSocio(2);
 		socio2.setNombreSocio("Antonio");
 		socio2.setDireccion("Calle Maria del Prado, 36");
 		socio2.setFechaAlta("16/04/2022");
 		miClub.getSocio().add(socio2);
 	    /** socio 3**/
 		Socio socio3 = new Socio();
-		socio3.setIdSocio(3);
+		//socio3.setIdSocio(3);
 		socio3.setNombreSocio("Maria");
 		socio3.setDireccion("Calle Maria del Prado, 36");
 		socio3.setFechaAlta("01/08/2019");

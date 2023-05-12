@@ -128,6 +128,7 @@ public class Club {
         protected String fechaAlta;
         @XmlAttribute(name = "idSocio")
         protected Integer idSocio;
+        static int idTemp;
 
         /**
          * Obtiene el valor de la propiedad nombreSocio.
@@ -149,10 +150,16 @@ public class Club {
          *     {@link String }
          *     
          */
+        
+        public Socio() {
+        	this.idSocio = ++idTemp;
+        }
+        
         public void setNombreSocio(String value) {
             this.nombreSocio = value;
         }
 
+        
         /**
          * Obtiene el valor de la propiedad direccion.
          * 
@@ -213,6 +220,12 @@ public class Club {
             return idSocio;
         }
 
+		@Override
+		public String toString() {
+			return "Socio [Nombre socio=" + nombreSocio + ", Dirección=" + direccion + ", Fecha alta=" + fechaAlta
+					+ ", id socio=" + idSocio + "]";
+		}
+
         /**
          * Define el valor de la propiedad idSocio.
          * 
@@ -221,10 +234,12 @@ public class Club {
          *     {@link Integer }
          *     
          */
-        public void setIdSocio(Integer value) {
-            this.idSocio = value;
-        }
+       // public void setIdSocio(Integer value) {
+       //   this.idSocio = value;
+       // }
 
+        
+        
+        
     }
-
-}
+	}
